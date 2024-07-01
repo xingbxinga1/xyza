@@ -4,7 +4,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
     <link rel="icon" href="https://github.com/xingbxinga1/xyza/blob/main/backup/trillion.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
@@ -115,8 +115,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 诚如查理芒格所行，我们终将做到，我们必将做到！<br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/xingbxinga1/xyza/assets/140168886/1e2605ff-bd64-4c63-b6f1-a6b194088260"><img src="https://github.com/xingbxinga1/xyza/assets/140168886/1e2605ff-bd64-4c63-b6f1-a6b194088260" alt="1-1穷宝-第四版本-时间2023 12 5出版" style="max-width: 100%;"></a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://xingbxinga1.github.io/xyza"> 硅谷之火：Trillion 博客 </a>
 <p>
@@ -171,6 +173,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");
